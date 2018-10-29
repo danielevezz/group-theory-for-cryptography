@@ -13,7 +13,7 @@
 (define (phif p q) (* (- p 1) (- q 1)))
 
 (define (coprime n m)
-  (if (= (gcd n m) 1) #t #f))
+  (= (gcd n m) 1))
 
 (define (pubexp phi)
   (let ((e (random phi)))
