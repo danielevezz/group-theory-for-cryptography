@@ -6,6 +6,7 @@ Piccoli esempi basati su algoritmi studiati nel corso di Algebra per Codici e Cr
 
 - Diffie-Hellman Key Exchange
 - El Gamal
+- RSA (in Scheme)
 
 ## Spiegazione
 
@@ -16,3 +17,7 @@ Il calcolo dell'elemento inverso è realizzato tramite l'algoritmo euclideo este
 ### NOTA BENE, Il calcolo dell'elemento neutro non è realizzato è fissato ad 1 anche per altri tipi di gruppi
 
 I numeri casuali sono stati calcolati per mezzo della funzione di libreria ```random.SystemRandom()```, quindi potrebbero non funzionare su alcuni sistemi.
+
+### RSA
+
+L'algoritmo RSA è stato realizzato in Scheme perchè volevo farlo in Scheme visto che lo devo studiare.

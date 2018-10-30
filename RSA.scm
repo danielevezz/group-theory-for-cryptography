@@ -74,4 +74,8 @@
   (if (< (expt m e) N) (expt c (/ 1 e)) #f))
 
 (newline)
+<<<<<<< HEAD
 (checkless)
+=======
+(checkless)
+>>>>>>> 20067179430190640f3b24873635a209b3469058
